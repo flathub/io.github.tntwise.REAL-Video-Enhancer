@@ -10,8 +10,14 @@
  <description>
   <p>
             A simple video enhancer for Linux.
-        </p>
-
+  </p>
+  <p>Features:</p>
+    <ul>
+       <li> Discord RPC support for Discord flatpak. </li>
+       <li> Scene change detection to preserve sharp transitions. </li>
+       <li> Preview that shows latest frame that has been rendered. </li>
+       <li> Enhancing straight from a YouTube link or a video URL.  </li>
+    </ul>
  </description>
  <url type="homepage">https://github.com/TNTwise/REAL-Video-Enhancer</url>
  <url type="bugtracker">https://github.com/TNTwise/REAL-Video-Enhancer/issues</url>
@@ -22,14 +28,13 @@
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="1.0.4" date="2023-10-18">
+  <release version="1.0.6" date="2023-10-18">
    <description>
-    <p>Features:</p>
     <ul>
-       <li> Discord RPC support for Discord flatpak. </li>
-       <li> Scene change detection to preserve sharp transitions. </li>
-       <li> Preview that shows latest frame that has been rendered. </li>
-       <li> Enhancing straight from a YouTube link or a video URL.  </li>
+       <li> RealSR and RealCUGAN support. </li>
+       <li> Add rife-v4.13. </li>
+       <li> Ensemble option for RIFE models. </li>
+       <li> Bug fixes.  </li>
     </ul>
    </description>
   </release>
