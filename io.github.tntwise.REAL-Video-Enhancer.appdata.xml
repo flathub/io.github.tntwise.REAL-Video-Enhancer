@@ -6,7 +6,7 @@
  <developer_name>TNTwise</developer_name>
  <summary>Free and Open Source Video Enhancement Tool</summary>
  <metadata_license>CC0-1.0</metadata_license>
- <project_license>MIT</project_license>
+ <project_license>AGPL-3.0-only</project_license>
  <description>
   <p>
             A simple video enhancer for Linux.
