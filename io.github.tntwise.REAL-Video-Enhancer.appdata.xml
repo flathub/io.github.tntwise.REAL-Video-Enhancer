@@ -28,11 +28,12 @@
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="1.0.7" date="2024-02-13">
+  <release version="1.1.0" date="2024-04-07">
    <description>
     <ul>
-       <li> Custom FPS multiplier for RIFE-v4.* models </li>
-       <li> Add rife-v4.14. </li>
+       <li> Add rife-v4.15 and rife-v4.16-lite </li>
+       <li> Custom NCNN models now support SPAN and ShuffleCugan </li>
+       <li> CUDA support (AppImage only) </li>
        <li> Bug fixes.</li>
     </ul>
    </description>
