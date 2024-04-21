@@ -28,13 +28,11 @@
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="1.1.0" date="2024-04-07">
+  <release version="1.1.1" date="2024-04-21">
    <description>
     <ul>
-       <li> Add rife-v4.15 and rife-v4.16-lite </li>
-       <li> Custom NCNN models now support SPAN and ShuffleCugan </li>
-       <li> CUDA support (AppImage only) </li>
-       <li> Bug fixes.</li>
+       <li> RealESRGAN NCNN, RealSR NCNN, and Custom NCNN now use NCNN-python, saving on storage and less compression on Upscale.</li>
+       <li> Fix a bug with RIFE CUDA render. </li>
     </ul>
    </description>
   </release>
