@@ -28,11 +28,11 @@
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="1.1.2" date="2024-04-21">
+  <release version="1.2.0" date="2024-04-21">
    <description>
     <ul>
-       <li> RealCUGAN moved to NCNN Python</li>
-       <li> Fix a bug where Flatpak version would not launch under X11.</li>
+       <li> Added SPAN-ncnn.</li>
+       <li> Implement RIFE-ncnn without image extraction.</li>
     </ul>
    </description>
   </release>

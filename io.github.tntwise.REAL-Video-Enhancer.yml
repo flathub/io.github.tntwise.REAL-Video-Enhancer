@@ -27,8 +27,8 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer-BETA/releases/download/20240329/REAL-Video-Enhancer.tar.xz
-        sha256: b2b0ecfbc0f9e5fea41f2b6955c3dad303a402788f002b4c8b174b7e7480106c
+        url: https://github.com/TNTwise/REAL-Video-Enhancer-BETA/releases/download/20240516-MAC/REAL-Video-Enhancer.tar.xz
+        sha256: 412444b2e5e26609a7b035d2a5e89230e0f4f7539734d2e967d5185f000cc8c8
 
       - type: file
         url: https://raw.githubusercontent.com/TNTwise/REAL-Video-Enhancer-Flatpak/b7421ea54189ca2b301053d995ddbd57199b518b/io.github.tntwise.REAL-Video-Enhancer.svg
