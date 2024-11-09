@@ -16,7 +16,6 @@
        <li> Discord RPC support for Discord flatpak. </li>
        <li> Scene change detection to preserve sharp transitions. </li>
        <li> Preview that shows latest frame that has been rendered. </li>
-       <li> Enhancing straight from a YouTube link or a video URL.  </li>
     </ul>
  </description>
  <url type="homepage">https://github.com/TNTwise/REAL-Video-Enhancer</url>
@@ -24,16 +23,22 @@
  <url type="donation">https://ko-fi.com/tntwise</url>
  <screenshots>
   <screenshot type="default">
-   <image>https://raw.githubusercontent.com/TNTwise/REAL-Video-Enhancer/1.0.4/github/demo.png</image>
+   <image>https://github.com/TNTwise/REAL-Video-Enhancer/blob/75fd44b77925480d3a10345ffa1974085ce543bb/screenshots/demo.png</image>
+  </screenshot>
+  <screenshot type="default">
+   <image>https://github.com/TNTwise/REAL-Video-Enhancer/blob/75fd44b77925480d3a10345ffa1974085ce543bb/screenshots/models.png</image>
+  </screenshot>
+  <screenshot type="default">
+   <image>https://github.com/TNTwise/REAL-Video-Enhancer/blob/75fd44b77925480d3a10345ffa1974085ce543bb/screenshots/settings.png</image>
   </screenshot>
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="1.2.0" date="2024-04-21">
+  <release version="2.0.5" date="2024-09-01">
    <description>
     <ul>
-       <li> Added SPAN-ncnn.</li>
-       <li> Implement RIFE-ncnn without image extraction.</li>
+       <li> Whole new interface.</li>
+       <li> Unified feature set.</li>
     </ul>
    </description>
   </release>
