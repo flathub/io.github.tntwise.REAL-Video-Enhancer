@@ -1,6 +1,6 @@
 app-id: io.github.tntwise.REAL-Video-Enhancer
 runtime: org.kde.Platform
-runtime-version: '5.15-23.08'
+runtime-version: '6.7'
 sdk: org.kde.Sdk
 command: REAL-Video-Enhancer
 finish-args:
@@ -17,24 +17,23 @@ modules:
     build-commands:
       - install -Dm755 REAL-Video-Enhancer /app/bin/REAL-Video-Enhancer
       - mkdir /app/bin/lib/
+      - mkdir /app/bin/backend
       - cp -r lib/* /app/bin/lib/
-      - mkdir /app/bin/PyQt5.uic.widget-plugins/
-      - cp -r PyQt5.uic.widget-plugins/* /app/bin/PyQt5.uic.widget-plugins/
+      - cp -r backend/* /app/bin/backend/
       - install -D io.github.tntwise.REAL-Video-Enhancer.svg -t /app/share/icons/hicolor/scalable/apps
       - install -D io.github.tntwise.REAL-Video-Enhancer.appdata.xml -t /app/share/metainfo
       - install -D io.github.tntwise.REAL-Video-Enhancer.desktop -t /app/share/applications
 
-
     sources:
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer-BETA/releases/download/fp-2/REAL-Video-Enhancer.tar.xz
-        sha256: 526d62c13f2c1ff5c90248e1f26b9217f0646d2b3ec6c48abcb91e1d04886fe7
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.0.5/REAL-Video-Enhancer-2.0-Linux.zip
+        sha256: 7187997ece80e29ab2aee2273b929f8bb8d0f3307b991220e12afd052702a187
+      
 
-      - type: file
-        url: https://raw.githubusercontent.com/TNTwise/REAL-Video-Enhancer-Flatpak/b7421ea54189ca2b301053d995ddbd57199b518b/io.github.tntwise.REAL-Video-Enhancer.svg
-        sha256: 9b32fb0be4829ef67b24a34616a8f2ac0fdf0d96c79b341e654103788d657bd1
 
       - type: file
         path: io.github.tntwise.REAL-Video-Enhancer.desktop
       - type: file
         path: io.github.tntwise.REAL-Video-Enhancer.appdata.xml
+      - type: file
+        path: io.github.tntwise.REAL-Video-Enhancer.svg
