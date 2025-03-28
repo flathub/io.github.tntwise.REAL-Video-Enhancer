@@ -28,10 +28,10 @@
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="2.2.0" date="2025-02-20">
+  <release version="2.2.1" date="2025-03-28">
    <description>
     <ul>
-       <li>Added Queue system.</li>
+       <li>Fixed rendering bugs with certain subtitles.</li>
     </ul>
    </description>
   </release>
