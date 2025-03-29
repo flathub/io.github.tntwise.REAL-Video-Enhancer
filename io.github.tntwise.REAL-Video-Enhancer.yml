@@ -19,9 +19,10 @@ modules:
       - mkdir /app/bin/lib/
       - mkdir /app/bin/backend
       - cp -r lib/* /app/bin/lib/
-      # - mkdir backend
-      # - mv rve-backend.py backend/
-      # - mv src backend/
+      - ls
+      #- mkdir backend
+      #- mv rve-backend.py backend/
+      #- mv src backend/
       - cp -r backend/* /app/bin/backend/
       - install -D io.github.tntwise.REAL-Video-Enhancer.svg -t /app/share/icons/hicolor/scalable/apps
       - install -D io.github.tntwise.REAL-Video-Enhancer.appdata.xml -t /app/share/metainfo
@@ -29,11 +30,11 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.2.1/REAL-Video-Enhancer-2.2.1-Linux.zip
-        sha256: 0f6b64695f37c519a6d46f63ffe1e3e9595bfa1dfd2bfaeb5a49e4128abd834d
-      # - type: archive
-      #   url: https://github.com/TNTwise/real-video-enhancer-models/releases/download/models/backend-v2.2.0.tar.gz
-      #  sha256: b96913f131639e6b3975d385e2955d6b4aad1d48b990a3340b05ee3a39537142
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.2.5/REAL-Video-Enhancer-2.2.5-Linux.zip
+        sha256: 35eb2297c5d7929b3c71d3536aa604699ecaff3ca2126ea683d1fccc89ede6a0
+      - type: archive
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.2.5/backend-v2.2.5.tar.gz
+        sha256: 4b93fa3f7b3426e9dbe605aa2728bf4ef65c4566cd0746f354acbedb08b47203
 
 
       - type: file
