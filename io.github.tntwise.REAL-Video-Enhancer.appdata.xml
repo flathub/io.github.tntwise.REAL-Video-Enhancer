@@ -28,7 +28,7 @@
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="2.2.5" date="2025-03-28">
+  <release version="2.2.5" date="2025-04-12">
    <description>
     <ul>
        <li>Enable TensorRT and PyTorch</li>
