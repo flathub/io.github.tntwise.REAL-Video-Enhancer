@@ -19,7 +19,7 @@ modules:
       - mkdir /app/bin/lib/
       - mkdir /app/bin/backend
       - cp -r lib/* /app/bin/lib/
-      - ls
+      - rm /app/bin/lib/PySide6/Qt/lib/libxcb-cursor.so.0
       #- mkdir backend
       #- mv rve-backend.py backend/
       #- mv src backend/
@@ -30,11 +30,11 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.2.5/REAL-Video-Enhancer-2.2.5-Linux-portable.zip
-        sha256: 62682c84a60a42dbec77fdd846298bab29160be6c35ba5daebb12a51def729e4
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.0/REAL-Video-Enhancer-2.3.0-Linux-portable.zip
+        sha256: e87bf356a577cfa80f51438fafd071cba7acee14cc7ab9df61c865c7b1d65b87
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.2.5/backend-v2.2.5.tar.gz
-        sha256: 6e3f8c9716c0d8a8f101f1c2f0bd0a4893e54cddf18411eeb7597f8a6089685a
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.0/backend-v2.3.0.tar.gz
+        sha256: a1ce9ba8c6734bec88e723439e4f41b207ca4de9b2b2041374265f5a0b946215
 
 
       - type: file
