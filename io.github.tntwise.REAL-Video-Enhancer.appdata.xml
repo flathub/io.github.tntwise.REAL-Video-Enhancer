@@ -28,10 +28,10 @@
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="2.3.0" date="2025-05-15">
+  <release version="2.3.1" date="2025-05-27">
    <description>
     <ul>
-       <li>Bug Fixes</li>
+       <li>Hotpatch Release. Fixes large ram usage when upscaling.</li>
     </ul>
    </description>
   </release>
