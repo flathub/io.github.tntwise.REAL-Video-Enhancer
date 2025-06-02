@@ -30,10 +30,10 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.2/REAL-Video-Enhancer-2.3.1-Linux-portable.zip
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.2/REAL-Video-Enhancer-2.3.2-Linux-portable.zip
         sha256: be51397adffd129b411758d59cc3f4732a422ccc6f88564ed25d4e730840d70e
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.2/backend-v2.3.1.tar.gz
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.2/backend-v2.3.2.tar.gz
         sha256: 2f4db0b036179b4df9a829b9298c904dfeb95af02e36d11d0de83f2b2f78f4f3
 
 
