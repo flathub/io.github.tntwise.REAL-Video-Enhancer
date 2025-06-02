@@ -28,10 +28,10 @@
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="2.3.1" date="2025-05-27">
+  <release version="2.3.2" date="2025-06-02">
    <description>
     <ul>
-       <li>Hotpatch Release. Fixes large ram usage when upscaling.</li>
+       <li>Hotpatch Release. Downgrades Torch version.</li>
     </ul>
    </description>
   </release>
