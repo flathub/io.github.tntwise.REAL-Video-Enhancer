@@ -28,11 +28,11 @@
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="2.3.3" date="2025-06-11">
+  <release version="2.3.4" date="2025-06-26">
    <description>
     <ul>
-       <li>Adds: Dynamic TensorRT engines.</li>
-       <li>Fixes: Incorrect color and warping.</li>
+       <li>Adds: Decompress, ARM support (limited).</li>
+       <li>Fixes: Border Crop.</li>
     </ul>
    </description>
   </release>
