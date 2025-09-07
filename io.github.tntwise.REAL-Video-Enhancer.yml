@@ -30,7 +30,7 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.5/REAL-Video-Enhancer-2.3.4-Linux-portable_x86_64.zip
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.5/REAL-Video-Enhancer-2.3.5-Linux-portable_x86_64.zip
         sha256: 8ea01dc6bf93dd63b81739e28570daa383e93eb26388d1c6ce46bc9927e0fcc7
         only-arches: [x86_64]
         
