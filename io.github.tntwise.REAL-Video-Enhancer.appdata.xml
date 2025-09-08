@@ -23,16 +23,16 @@
  <url type="donation">https://ko-fi.com/tntwise</url>
  <screenshots>
   <screenshot type="default">
-   <image>https://raw.githubusercontent.com/TNTwise/REAL-Video-Enhancer/RVE-2.0.5/icons/demo.png</image>
+   <image>https://raw.githubusercontent.com/TNTwise/REAL-Video-Enhancer/RVE-2.3.5/screenshots/demo.png</image>
   </screenshot>
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="2.3.4" date="2025-06-26">
+  <release version="2.3.5" date="2025-09-07">
    <description>
     <ul>
-       <li>Adds: Decompress, ARM support (limited).</li>
-       <li>Fixes: Border Crop.</li>
+       <li>Adds: Better HDR Support, denoise.</li>
+       <li>Fixes: Too much to list here.</li>
     </ul>
    </description>
   </release>
