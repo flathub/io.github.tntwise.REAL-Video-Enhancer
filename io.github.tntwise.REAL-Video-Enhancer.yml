@@ -3,6 +3,7 @@ runtime: org.kde.Platform
 runtime-version: '6.8'
 sdk: org.kde.Sdk
 command: REAL-Video-Enhancer
+  
 finish-args:
   - --share=ipc
   - --socket=fallback-x11
@@ -30,18 +31,18 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.5/REAL-Video-Enhancer-2.3.5-Linux-portable_x86_64.zip
-        sha256: 8ea01dc6bf93dd63b81739e28570daa383e93eb26388d1c6ce46bc9927e0fcc7
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.6/REAL-Video-Enhancer-2.3.6-Linux-portable_x86_64.zip
+        sha256: a82b33daa067d226eb40c92b95261bde84569c43ed3d0e36b882dd145dc7aaf5
         only-arches: [x86_64]
         
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.5/REAL-Video-Enhancer-2.3.5-Linux-portable_arm64.zip
-        sha256: 8172dc8fd7e504a9f4c1271233eb24da06526841a6d9fd8f2cdca0eab9d9ffa5
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.6/REAL-Video-Enhancer-2.3.6-Linux-portable_arm64.zip
+        sha256: 8506c78a4bffe88f43c36131faac6b10f36d6c7bef5798ad140436f10d66d45e
         only-arches: [aarch64]
         
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.5/backend-v2.3.5.tar.gz
-        sha256: 07af8ed5d41cc9ec1f9a4585ee1dd2a73c284423489e06fd736c80fcdc62b2b1
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.6/backend-v2.3.6.tar.gz
+        sha256: ec8fb9062d716e6ab7db53684f5cf4b46c5c68af643af2b353a89a192d73af16
 
 
       - type: file
