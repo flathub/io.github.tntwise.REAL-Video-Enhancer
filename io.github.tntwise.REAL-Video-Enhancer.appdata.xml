@@ -28,10 +28,10 @@
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="2.3.6" date="2025-09-07">
+  <release version="2.3.7" date="2025-10-02">
    <description>
     <ul>
-       <li>Adds: Better HDR Support, denoise.</li>
+       <li>PyTorch 2.9</li>
        <li>Fixes: Too much to list here.</li>
     </ul>
    </description>
