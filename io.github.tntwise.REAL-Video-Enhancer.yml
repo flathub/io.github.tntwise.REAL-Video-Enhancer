@@ -36,7 +36,7 @@ modules:
         only-arches: [x86_64]
         
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.8/REAL-Video-Enhancer-2.38.-Linux-portable_arm64.zip
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.8/REAL-Video-Enhancer-2.3.8-Linux-portable_arm64.zip
         sha256: ef7958dc56767f98204553c47847c3eec8c8688ea2cacb6c4179146641e00e31
         only-arches: [aarch64]
         
