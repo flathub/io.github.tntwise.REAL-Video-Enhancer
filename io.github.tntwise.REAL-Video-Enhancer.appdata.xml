@@ -28,11 +28,10 @@
  </screenshots>
  <content_rating type="oars-1.1"/>
  <releases>
-  <release version="2.3.7" date="2025-10-02">
+  <release version="2.3.8" date="2025-10-24">
    <description>
     <ul>
-       <li>PyTorch 2.9</li>
-       <li>Fixes: Too much to list here.</li>
+       <li>Fixes: Fixes</li>
     </ul>
    </description>
   </release>
