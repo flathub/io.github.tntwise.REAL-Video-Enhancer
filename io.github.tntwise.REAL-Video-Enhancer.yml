@@ -31,18 +31,18 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.7/REAL-Video-Enhancer-2.3.7-Linux-portable_x86_64.zip
-        sha256: 383930da583f5d34898a2970060e1559bf2e3e18f4f70407795420cb2973e8a6
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.8/REAL-Video-Enhancer-2.3.8-Linux-portable_x86_64.zip
+        sha256: 515ca09b88f31545a651986e66aa2bc085a51ee647b6eba29002d9f2a1121ccc
         only-arches: [x86_64]
         
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.7/REAL-Video-Enhancer-2.3.7-Linux-portable_arm64.zip
-        sha256: fa5f26a6d3f18bfc54465c8a60180e0f0cac67f5ce1179d111f86b359a5278d8
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.8/REAL-Video-Enhancer-2.38.-Linux-portable_arm64.zip
+        sha256: ef7958dc56767f98204553c47847c3eec8c8688ea2cacb6c4179146641e00e31
         only-arches: [aarch64]
         
       - type: archive
-        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.7/backend-v2.3.7.tar.gz
-        sha256: ef69ff363ff992674ddc850d3699dbaadfc87ae75c82e3ef02b4bd4103063394
+        url: https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.3.8/backend-v2.3.8.tar.gz
+        sha256: 3e20562f97c3ea59391fd4b9b7a7ede961e8bc7205b7049da7bb0cea9f460f71
 
 
       - type: file
